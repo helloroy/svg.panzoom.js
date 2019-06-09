@@ -154,6 +154,8 @@ SVG.extend(SVG.Doc, SVG.Nested, {
 
     var panning = function(ev) {
       ev.preventDefault()
+      
+      console.log(ev);
 
       var currentTouches = normalizeEvent(ev)
 
